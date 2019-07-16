@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: monospace;
+            background: #fff
+        }
+
+        .login-form,
+        .download-form {
+            text-align: center;
+            margin: auto;
+        }
+
+        button {
+            border: none;
+            border-radius: 3px;
+            padding: 10px 25px;
+            outline: none;
+        }
+
+
+        .google-button {
+            display: flex;
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 0px 1px 3px 1px #c5c5c5;
+            padding: 0.5rem 1rem;
+            margin: auto;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .bottom-text {
+            margin-top: 50px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body onload="onInit()">
+    <div>
+    <div class="login-form" id="loginForm">
+        <h3>Welcome to FlutterOwl.com</h3>
+        <p style="color:#888;margin-bottom:50px;font-size: 14px;">Please login to download source code</p>
+        <button class="google-button" onclick="loginWithGoogle()">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM0SURBVEiJrZVtaJVlGMd/132ec446d846G6bI5pDNBhVoSzYIioOzWYEQqKyw5iHojSRDRqTQl8SwFkkQQfTilwpGLQpNtx1LCIwtC5FNV2MUWRsrU9tr55znua8+tI3t8TnHzfp/e/7Xc/2u+7q57vsWVSWfriY3lBgnkgI2olQhVKHkBHoV6VWxvZ7hRKKj52I+hgQVuLL5zooQoRaUFFCUdwWAwpQIr8QmQoc4fXrqugWuNtQnDfoxkCgEDtAvVkxzSdc3p+aaZu7HX5vqnjRo5w3AQfSsOxX67lp7uoPRzXWNKMcBKYAZAxSIzYOgLxef/HY/AfttAMYa6kpR3s8D/xF0p2PCq2Pp7lgs3R03kdwKUU0hdKM8XJzu2RcEn+1gcnf1e+6FRMofVHg1nljzAm1tXoGuCkr0BAk3xJD7/c3RbLoC7L9NqGhrvKun5UbBMzI5w0NA1LljhOiOH5CIlwMG41fsvv8KB3DE0Mj07oUqR1mS6gtnOypf4p0LuaCEBw/n1oNXsqDVExp1UCrnmnLT3xQ19X+VL0nUHga5ZyEFFDtggAqfP04DeY/+IrXKAP7xKnQOFi0D/OzzijJfsvZ/4g850wXWzzgZDB/k1iQfh8GgDFU9YuCU37cidwk0+OxByaZ5WpQ3AX7XKLvdDdpvi39auvJyzZnaM4GT5NeO11nqkjkPvoFRaTLhEB8CU+dsnKZcPedtTCyydnyk7MBC4ACuZA744cBI2fJIu6gqRzor323NrtvliZj5/+hr/ZMlz+v24KviibcJX5rIvKXw2LVRPdj+3JL9oqrccjRZZiRyDlgVwBlA9KArTnrgvi9+BbitY0vC8+zWcHblM+W/vVgbzZb7c4ZFvNpP9iwbnr2ubz167yYr0kXhMR0HPCA+Yxi7jNXDe1k+sXHGGlMxd3+6J3wWfC9azbHGpwTeAJwCRQIkrLj0CKWXt+WwPNC+N9o1G/Ff4zXHtiQF2kDLFlVCI3+U/rnt2a+bmz+a7we8E7d/1ljuOrQAu4Di67AnBD00NjneenH7Ah79uao+fn/M8eyjiNYLVCtUAR5oH9Cravqw9vP+rZ1D+Rj/APUoP/68lKX4AAAAAElFTkSuQmCC" alt="" />
+            &nbsp;
+        Login with Google</button>
+
+        <p class="bottom-text">We don't post anything on your wall • No Spam • 100% Secured</p>
+    </div>
+
+    <div class="download-form" id="downloadForm" style="display:none">
+        <h3>Welcome to FlutterOwl.com</h3>
+        <p style="color:#888;margin-bottom:50px;font-size: 14px;">Please download your source code</p>
+        <button class="google-button" style="margin-bottom: 3rem;" onclick="download()">Download</button>
+
+        <p><span id="userName"></span> <br><br> <a href="#" class="bottom-text" onclick="logout()">Logout</a></p>
+
+    </div>
+</div>
+
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+
+    <script>
+
+        
+        var url = new URL(window.location.href);
+        filepath = url.searchParams.get("file");
+        
+
+        function onInit() {
+
+
+
+            var downloadForm = document.getElementById("downloadForm");
+            var loginForm = document.getElementById("loginForm");
+
+            console.log("calling");
+
+            var firebaseConfig = {
+                apiKey: "AIzaSyBdE-R7Z-hwy-oRzjC-Ba6t51evC1uGDzE",
+                authDomain: "codesundar-d2ff0.firebaseapp.com",
+                databaseURL: "https://codesundar-d2ff0.firebaseio.com",
+                projectId: "codesundar-d2ff0",
+                storageBucket: "codesundar-d2ff0.appspot.com",
+                messagingSenderId: "706336136754",
+                appId: "1:706336136754:web:3732b4300ffe9b2a"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user == null) {
+                    downloadForm.style.display = "none";
+                    loginForm.style.display = "block";
+                    console.log(firebase.auth().currentUser);
+                }
+                else {
+                    document.getElementById("userName").innerHTML = firebase.auth().currentUser.displayName;
+                    loginForm.style.display = "none";
+                    downloadForm.style.display = "block";
+                }
+
+            });
+
+
+        }
+
+        function download() {
+            console.log(filepath);
+            if (filepath != undefined || filepath != null)
+                window.open("http://localhost:4000/downloads/" + filepath +".zip");
+            else
+                alert("Invalid Request! Please refresh page and try again")
+        }
+
+
+        function loginWithGoogle() {
+
+            var provider = new firebase.auth.GoogleAuthProvider();
+            firebase.auth().signInWithPopup(provider).then(function (result) {
+                console.log(result.user)
+            }).catch(function (error) {
+                console.log(error);
+            });
+
+        }
+
+        function logout() {
+            firebase.auth().signOut();
+        }
+    </script>
+</body>
+
+</html>
