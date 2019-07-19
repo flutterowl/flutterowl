@@ -169,7 +169,6 @@ class ThirdPage extends StatelessWidget {
 
 ----
 
-<script src="scripts.js"></script>
 <button id="fo_dlbtn" data-fileid="flutter-simple-navigation" class="btn btn-blue">Download Source Code</button>
 
 

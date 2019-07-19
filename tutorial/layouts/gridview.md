@@ -5,6 +5,8 @@ parent: Flutter Layouts
 nav_order: 2
 permalink: flutter-grid-view
 menu_title: GridView
+image: assets/images/cover/flutter-gridview-example.jpg
+description: A complete guide for flutter gridview
 ---
 
 # A Complete Guide to Flutter GridView
