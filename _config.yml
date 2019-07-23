@@ -28,6 +28,7 @@ theme: "just-the-docs"
 plugins:
   - jekyll-feed
 search_enabled: true
+ga_tracking: UA-144336819-1
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

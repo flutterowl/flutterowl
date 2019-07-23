@@ -26,4 +26,10 @@ Linux Installation Guide : [https://flutter.dev/docs/get-started/install/linux](
 
 ## Useful Tools
 
-Once you have completely installed Flutter, please install VScode for code editor
+Once you have completely installed Flutter, please executer following command 
+
+```
+flutter doctor
+```
+
+If you're not getting any error, you can proceed with next lesson
