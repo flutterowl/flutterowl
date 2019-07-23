@@ -172,11 +172,6 @@ class ThirdPage extends StatelessWidget {
 
 <img src="/assets/images/screenshots/routing/simple-navigate-1.png"> <img src="/assets/images/screenshots/routing/simple-navigate-2.png"> <img src="/assets/images/screenshots/routing/simple-navigate-3.png">
 
-----
-
-<button id="fo_dlbtn" data-fileid="flutter-simple-navigation" class="btn btn-blue">Download Source Code</button>
-
-
 ---
 
 ## Passing Data Between Pages
