@@ -5,9 +5,14 @@ parent: Flutter Authentication
 nav_order: 1
 permalink: flutter-facebook-login
 menu_title: Facebook Login
+image: assets/images/cover/flutter-facebook-login-tutorial.jpg
+comments: true
+file: flutter-fblogin
 ---
 
 # A Complete Guide to Facebook login with Flutter
+
+<img src="assets/images/cover/flutter-facebook-login-tutorial.jpg">
 
 This article, we're going to learn how to integrate facebook login with your flutter apps. To integrating facebook login, we need to follow few steps
 

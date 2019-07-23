@@ -5,6 +5,8 @@ parent: Getting Started
 nav_order: 2
 permalink: /first-flutter-project
 menu_title: Your First Flutter Project
+comments: true
+file: hello-world
 ---
 
 This article, we'll learn flutter by creating your first project. To create a new flutter project, we need to execute following commands on your terminal / command prompt

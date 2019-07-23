@@ -5,11 +5,13 @@ parent: Flutter Layouts
 nav_order: 1
 permalink: flutter-list-view
 menu_title: List View
+image: assets/images/cover/flutter-listview-tutorial.jpg
+comments: true
 ---
 
 # A Complete Guide to flutter list view
 
-<img src="assets/images/cover/flutter-listview-example.jpg"/>
+<img src="assets/images/cover/flutter-listview-tutorial.jpg">
 
 If you want to display multiple widgets in vertically or horizantally with scrollable, you can use flutter list view
 

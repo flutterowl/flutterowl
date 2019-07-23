@@ -5,7 +5,12 @@ parent: Flutter & Firebase
 nav_order: 4
 permalink: flutter-firebase-push-notification
 menu_title: Firebase Cloud Messaging
+image: assets/images/cover/flutter-firebase-push-notification-tutorial.jpg
+comments: true
+file: flutter-fcm
 ---
+
+<img src="assets/images/cover/flutter-firebase-push-notification-tutorial.jpg">
 
 # A Complete Guide to integrate Firebase Messaging with Flutter
 

@@ -5,12 +5,16 @@ parent: Flutter Authentication
 nav_order: 2
 permalink: flutter-google-login
 menu_title: Google Login
+image: assets/images/cover/flutter-google-login-tutorial.jpg
+comments: true
+file: flutter-glogin
 ---
 
 # A Step By Step Guide for Google login with Flutter
 
 This tutorial, we're going to learn about integrating google login with your flutter apps. To to that, we're going to use this package: [https://pub.dev/packages/google_sign_in](https://pub.dev/packages/google_sign_in)
 
+<img src="assets/images/cover/flutter-google-login-tutorial.jpg">
 
 ### Step for integrating Google login
 

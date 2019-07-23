@@ -5,7 +5,12 @@ parent: Flutter & Firebase
 nav_order: 2
 permalink: flutter-firebase-realtime-database
 menu_title: Realtime Database
+image: assets/images/cover/flutter-firebase-database-tutorial.jpg
+comments: true
+file: flutter-firebase-rtdb
 ---
+
+<img src="assets/images/cover/flutter-firebase-database-tutorial.jpg">
 
 # Flutter Chat using Firebase Realtime Database
 

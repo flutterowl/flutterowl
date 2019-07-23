@@ -5,7 +5,12 @@ parent: Flutter & Firebase
 nav_order: 3
 permalink: flutter-firebase-firestore-database
 menu_title: FireStore
+image: assets/images/cover/flutter-firestore-tutorial.jpg
+comments: true
+file: flutter-firestore
 ---
+
+<img src="assets/images/cover/flutter-firestore-tutorial.jpg">
 
 # A Simple Chat with Flutter & FireStore
 

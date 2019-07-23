@@ -5,7 +5,12 @@ parent: Flutter & HTTP
 nav_order: 1
 permalink: /flutter-http-tutorial
 menu_title: HTTP GET & POST
+image: assets/images/cover/flutter-http-tutorial.jpg
+comments: true
+file: flutter-http
 ---
+
+<img src="assets/images/cover/flutter-http-tutorial.jpg">
 
 # A Step By Step tutorial for Flutter & Http
 

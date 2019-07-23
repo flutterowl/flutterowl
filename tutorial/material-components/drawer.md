@@ -5,7 +5,12 @@ parent: Material Components
 nav_order: 3
 permalink: flutter-drawer
 menu_title: Drawer
+image: assets/images/cover/flutter-drawer-tutorial.jpg
+comments: true
+file: flutter-drawer
 ---
+
+<img src="assets/images/cover/flutter-drawer-tutorial.jpg">
 
 # Deep Dive into Flutter Drawer
 

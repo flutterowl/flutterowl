@@ -5,6 +5,9 @@ parent: UI Widgets
 nav_order: 2
 permalink: /display-image-in-flutter
 menu_title: Display Image in flutter
+image: assets/images/cover/display-images-in-flutter.jpg
+comments: true
+file: flutter-images
 ---
 
 # Display Images in Flutter

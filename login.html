@@ -77,12 +77,12 @@
 </head>
 
 <body onload="onInit()">
-    
+
     <div>
         <div style="text-align: center;margin:auto;padding-top:5rem" id="loader">
             <div class="lds-dual-ring"></div>
         </div>
-        
+
         <div class="login-form" id="loginForm" style="display:none;">
             <h3>Welcome to FlutterOwl.com</h3>
             <p style="color:#888;margin-bottom:50px;font-size: 14px;">Please login to download source code</p>
@@ -124,13 +124,13 @@
             console.log("calling");
 
             var firebaseConfig = {
-                apiKey: "AIzaSyBdE-R7Z-hwy-oRzjC-Ba6t51evC1uGDzE",
-                authDomain: "codesundar-d2ff0.firebaseapp.com",
-                databaseURL: "https://codesundar-d2ff0.firebaseio.com",
-                projectId: "codesundar-d2ff0",
-                storageBucket: "codesundar-d2ff0.appspot.com",
-                messagingSenderId: "706336136754",
-                appId: "1:706336136754:web:3732b4300ffe9b2a"
+                apiKey: "AIzaSyDEIlKSkXHimIGNyGSzHj86Lu2W6_fghxQ",
+                authDomain: "flutterowl-8f2f0.firebaseapp.com",
+                databaseURL: "https://flutterowl-8f2f0.firebaseio.com",
+                projectId: "flutterowl-8f2f0",
+                storageBucket: "",
+                messagingSenderId: "373781173566",
+                appId: "1:373781173566:web:ff5b0ac9f84bf8d7"
             };
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
@@ -156,9 +156,9 @@
         function download() {
             console.log(filepath);
             if (filepath != undefined || filepath != null)
-                window.open("http://localhost:4000/downloads/" + filepath + ".zip");
+                window.open("https://flutterowl.com/downloads/" + filepath + ".zip");
             else
-                alert("Invalid Request! Please refresh page and try again")
+                alert("Invalid Request! (or) File Not Found! Please refresh page and try again")
         }
 
 

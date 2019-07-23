@@ -5,11 +5,14 @@ parent: UI Widgets
 nav_order: 2
 permalink: /display-buttons-on-flutter
 menu_title: Flutter Buttons
+image: assets/images/cover/flutter-buttons.jpg
+comments: true
+file: flutter-buttons
 ---
 
 # Flutter Buttons Complete Guide
 
-<img src="assets/images/cover/flutter-buttons-example.jpg">
+<img src="assets/images/cover/flutter-buttons.jpg">
 
 Flutter has multiple button types such as 
 

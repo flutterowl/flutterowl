@@ -1,3 +1,9 @@
+{% if page.file %}
+<h4>Download Source Code:</h4>
+<button id="fo_dlbtn" data-fileid="{{page.file}}" class="btn btn-blue">Download Source Code</button>
+{% endif %}
+<hr/>
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script type="text/javascript">

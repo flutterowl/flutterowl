@@ -5,13 +5,14 @@ parent: Flutter Layouts
 nav_order: 2
 permalink: flutter-grid-view
 menu_title: GridView
-image: assets/images/cover/flutter-gridview-example.jpg
+image: assets/images/cover/flutter-grid-view-tutorial.jpg
+comments: true
 description: A complete guide for flutter gridview
 ---
 
 # A Complete Guide to Flutter GridView
 
-<img src="assets/images/cover/flutter-gridview-example.jpg"/>
+<img src="assets/images/cover/flutter-grid-view-tutorial.jpg">
 
 This tutorial, we're going to display content in grid view. List ListView(), GridView also have mutliple ways to display gridview such as
 
