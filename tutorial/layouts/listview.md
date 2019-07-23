@@ -3,7 +3,7 @@ layout: default
 title: A Complete Guide to Flutter List View with Example
 parent: Flutter Layouts
 nav_order: 1
-permalink: flutter-list-view
+permalink: /flutter-list-view/
 menu_title: List View
 image: assets/images/cover/flutter-listview-tutorial.jpg
 comments: true

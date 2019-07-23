@@ -3,7 +3,7 @@ layout: default
 title: A Complete Guide to Flutter TabBar
 parent: Material Components
 nav_order: 4
-permalink: flutter-tabbar
+permalink: /flutter-tabbar/
 menu_title: TabBar
 image: assets/images/cover/flutter-tabbar-tutorial.jpg
 comments: true

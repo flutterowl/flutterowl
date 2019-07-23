@@ -3,7 +3,7 @@ layout: default
 title: Named Routes
 parent: Flutter Navigation & Routing
 nav_order: 2
-permalink: /named-routes-in-flutter
+permalink: /named-routes-in-flutter/
 menu_title: Named Routes
 comments: true
 image: assets/images/cover/flutter-named-routes-tutorial.jpg

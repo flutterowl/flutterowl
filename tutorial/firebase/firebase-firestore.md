@@ -3,7 +3,7 @@ layout: default
 title: Flutter & Firebase FireStore Database
 parent: Flutter & Firebase
 nav_order: 3
-permalink: flutter-firebase-firestore-database
+permalink: /flutter-firebase-firestore-database/
 menu_title: FireStore
 image: assets/images/cover/flutter-firestore-tutorial.jpg
 comments: true

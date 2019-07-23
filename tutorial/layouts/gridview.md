@@ -3,7 +3,7 @@ layout: default
 title: A Complete Guide to Flutter GridView with Example
 parent: Flutter Layouts
 nav_order: 2
-permalink: flutter-grid-view
+permalink: /flutter-grid-view/
 menu_title: GridView
 image: assets/images/cover/flutter-grid-view-tutorial.jpg
 comments: true

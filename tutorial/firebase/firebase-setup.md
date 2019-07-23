@@ -3,7 +3,7 @@ layout: default
 title: Flutter & Firebase Setup
 parent: Flutter & Firebase
 nav_order: 1
-permalink: flutter-firebase-setup
+permalink: /flutter-firebase-setup/
 menu_title: Setup
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Flutter & HTTP | A Complete Guide
 parent: Flutter & HTTP
 nav_order: 1
-permalink: /flutter-http-tutorial
+permalink: /flutter-http-tutorial/
 menu_title: HTTP GET & POST
 image: assets/images/cover/flutter-http-tutorial.jpg
 comments: true

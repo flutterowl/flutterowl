@@ -3,7 +3,7 @@ layout: default
 title: Flutter Navigation & Routing
 nav_order: 5
 has_children: true
-permalink: /flutter-navigation
+permalink: /flutter-navigation/
 menu_title: Flutter Navigation & Routing
 ---
 

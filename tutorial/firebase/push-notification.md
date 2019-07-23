@@ -3,7 +3,7 @@ layout: default
 title: Flutter & Firebase Push Notification
 parent: Flutter & Firebase
 nav_order: 4
-permalink: flutter-firebase-push-notification
+permalink: /flutter-firebase-push-notification/
 menu_title: Firebase Cloud Messaging
 image: assets/images/cover/flutter-firebase-push-notification-tutorial.jpg
 comments: true

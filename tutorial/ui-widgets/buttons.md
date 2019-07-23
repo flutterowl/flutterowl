@@ -3,7 +3,7 @@ layout: default
 title: Flutter Buttons Examples
 parent: UI Widgets
 nav_order: 2
-permalink: /display-buttons-on-flutter
+permalink: /display-buttons-on-flutter/
 menu_title: Flutter Buttons
 image: assets/images/cover/flutter-buttons.jpg
 comments: true

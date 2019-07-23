@@ -3,7 +3,7 @@ layout: default
 title: A Simple Chat App using Flutter & Firebase Realtime Database
 parent: Flutter & Firebase
 nav_order: 2
-permalink: flutter-firebase-realtime-database
+permalink: /flutter-firebase-realtime-database/
 menu_title: Realtime Database
 image: assets/images/cover/flutter-firebase-database-tutorial.jpg
 comments: true

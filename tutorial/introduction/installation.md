@@ -3,7 +3,7 @@ layout: default
 title: Flutter Installation
 parent: Getting Started
 nav_order: 1
-permalink: /flutter-installation
+permalink: /flutter-installation/
 menu_title: Flutter Installation
 ---
 # Flutter Installation

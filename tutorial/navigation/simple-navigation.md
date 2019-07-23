@@ -3,7 +3,7 @@ layout: default
 title: Simple Routing
 parent: Flutter Navigation & Routing
 nav_order: 1
-permalink: /simple-routing-in-flutter
+permalink: /simple-routing-in-flutter/
 menu_title: Simple Routing
 image: assets/images/cover/flutter-routing.jpg
 comments: true

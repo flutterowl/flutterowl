@@ -3,7 +3,7 @@ layout: default
 title: Flutter Google Login
 parent: Flutter Authentication
 nav_order: 2
-permalink: flutter-google-login
+permalink: /flutter-google-login/
 menu_title: Google Login
 image: assets/images/cover/flutter-google-login-tutorial.jpg
 comments: true

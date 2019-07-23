@@ -3,7 +3,7 @@ layout: default
 title: UI Widgets
 nav_order: 3
 has_children: true
-permalink: /ui-widget
+permalink: /ui-widget/
 menu_title: UI Widgets
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: Flutter Facebook Login
 parent: Flutter Authentication
 nav_order: 1
-permalink: flutter-facebook-login
+permalink: /flutter-facebook-login/
 menu_title: Facebook Login
 image: assets/images/cover/flutter-facebook-login-tutorial.jpg
 comments: true

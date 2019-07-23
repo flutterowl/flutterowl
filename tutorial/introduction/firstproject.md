@@ -3,7 +3,7 @@ layout: default
 title: Your First Flutter Project
 parent: Getting Started
 nav_order: 2
-permalink: /first-flutter-project
+permalink: /first-flutter-project/
 menu_title: Your First Flutter Project
 comments: true
 file: hello-world

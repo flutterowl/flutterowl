@@ -3,7 +3,7 @@ layout: default
 title: A Deep Dive into Flutter Drawer
 parent: Material Components
 nav_order: 3
-permalink: flutter-drawer
+permalink: /flutter-drawer/
 menu_title: Drawer
 image: assets/images/cover/flutter-drawer-tutorial.jpg
 comments: true
