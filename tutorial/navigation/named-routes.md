@@ -6,11 +6,11 @@ nav_order: 2
 permalink: /named-routes-in-flutter/
 menu_title: Named Routes
 comments: true
-image: assets/images/cover/flutter-named-routes-tutorial.jpg
+image: /assets/images/cover/flutter-named-routes-tutorial.jpg
 file: named-routing
 ---
 
-<img src="assets/images/cover/flutter-named-routes-tutorial.jpg">
+<img src="/assets/images/cover/flutter-named-routes-tutorial.jpg">
 
 # Named Router
 

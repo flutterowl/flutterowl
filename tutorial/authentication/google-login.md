@@ -5,7 +5,7 @@ parent: Flutter Authentication
 nav_order: 2
 permalink: /flutter-google-login/
 menu_title: Google Login
-image: assets/images/cover/flutter-google-login-tutorial.jpg
+image: /assets/images/cover/flutter-google-login-tutorial.jpg
 comments: true
 file: flutter-glogin
 ---
@@ -14,7 +14,7 @@ file: flutter-glogin
 
 This tutorial, we're going to learn about integrating google login with your flutter apps. To to that, we're going to use this package: [https://pub.dev/packages/google_sign_in](https://pub.dev/packages/google_sign_in)
 
-<img src="assets/images/cover/flutter-google-login-tutorial.jpg">
+<img src="/assets/images/cover/flutter-google-login-tutorial.jpg">
 
 ### Step for integrating Google login
 
@@ -98,7 +98,7 @@ Scaffold(
 - This code display login button if user is not logged in, otherwise it displays user profile image, name with logout button
 
 ### Screenshot
-<img src="assets/images/screenshots/glogin/op1.png"> <img src="assets/images/screenshots/glogin/op2.png"> <img src="assets/images/screenshots/glogin/op3.png"> <img src="assets/images/screenshots/glogin/op4.png">
+<img src="/assets/images/screenshots/glogin/op1.png"> <img src="/assets/images/screenshots/glogin/op2.png"> <img src="/assets/images/screenshots/glogin/op3.png"> <img src="/assets/images/screenshots/glogin/op4.png">
 
 ---
 
@@ -109,31 +109,31 @@ Scaffold(
     - fill your app details such as name 
     - Accept Terms & conditions
 
-    <img src="assets/images/screenshots/glogin/1.png">
+    <img src="/assets/images/screenshots/glogin/1.png">
 
 2. Navigate to Project Settings -> General & choose your support email
 
-    <img src="assets/images/screenshots/glogin/2.png">
+    <img src="/assets/images/screenshots/glogin/2.png">
 
 3. Navigate to project settings -> Choose Android
 
-    <img src="assets/images/screenshots/glogin/3.png">
+    <img src="/assets/images/screenshots/glogin/3.png">
 
 4. Fill App details such as Package name, name and SHA-1 Key
 
-    <img src="assets/images/screenshots/glogin/4.png">
+    <img src="/assets/images/screenshots/glogin/4.png">
 
     To generate SHA1 Key, you need to follow this : [https://developers.google.com/android/guides/client-auth](https://developers.google.com/android/guides/client-auth) & password is android
 
-    <img src="assets/images/screenshots/glogin/5.png">
+    <img src="/assets/images/screenshots/glogin/5.png">
 
 5. Download `google-services.json` file
 
-    <img src="assets/images/screenshots/glogin/6.png">
+    <img src="/assets/images/screenshots/glogin/6.png">
 
 6. Copy the downloaded `google-services.json` file into `testproj/android/app`
 
-    <img src="assets/images/screenshots/glogin/7.png">
+    <img src="/assets/images/screenshots/glogin/7.png">
 
 7. Update Application ID in your `testproj/android/app/build.gradle`
 
@@ -150,7 +150,7 @@ Scaffold(
 
 8. Navigate to Authentication->SignIn Method & Enable Google Login
 
-    <img src="assets/images/screenshots/glogin/8.png">
+    <img src="/assets/images/screenshots/glogin/8.png">
     
 ---
 
@@ -160,15 +160,15 @@ Scaffold(
 
 1. Navigate to Firebase Project Overview -> Settings & choose Add iOS platform
 
-    <img src="assets/images/screenshots/glogin/3.png">
+    <img src="/assets/images/screenshots/glogin/3.png">
 
 2. Add your bundle id & app name & click Next
 
-    <img src="assets/images/screenshots/glogin/9.png">
+    <img src="/assets/images/screenshots/glogin/9.png">
 
 3. Download `GoogleServiceInfo.plist` file & Paste inside `testproj/ios/Runner`
 
-    <img src="assets/images/screenshots/glogin/10.png">
+    <img src="/assets/images/screenshots/glogin/10.png">
 
 4. Navigate to `testproj/ios` & execute
 
@@ -180,9 +180,9 @@ Scaffold(
 
 5. Open `testproj/ios/Runner.xcworkspace` & click Add Files to Runner & choose `GoogleServiceInfo.plist` file
 
-    <img src="assets/images/screenshots/glogin/12.png">
+    <img src="/assets/images/screenshots/glogin/12.png">
 
-    <img src="assets/images/screenshots/glogin/13.png">
+    <img src="/assets/images/screenshots/glogin/13.png">
 
 6. Now you need to copy these lines & Add into `testproj/ios/Runner/Info.plist`
 

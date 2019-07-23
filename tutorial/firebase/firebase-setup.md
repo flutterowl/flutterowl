@@ -16,46 +16,46 @@ In order to work with firebase with flutter, we need to follow these setup.
 
 1. Login to **console.firebase.google.com**
     
-    <img src="assets/images/screenshots/glogin/1.png">
+    <img src="/assets/images/screenshots/glogin/1.png">
 
 2. Goto Project OverView -> Project Settings -> General & add your support Email
 
-    <img src="assets/images/screenshots/glogin/2.png">
+    <img src="/assets/images/screenshots/glogin/2.png">
 
 3. Scroll Down & Click Add Android Project
 
-    <img src="assets/images/screenshots/glogin/3.png">
+    <img src="/assets/images/screenshots/glogin/3.png">
 
 4. Fill Required Details
 
-    <img src="assets/images/screenshots/glogin/4.png">
+    <img src="/assets/images/screenshots/glogin/4.png">
 
 5. To Generate SHA 1 Hash key: 
 
-    <img src="assets/images/screenshots/glogin/5.png">
+    <img src="/assets/images/screenshots/glogin/5.png">
 
 6. Download `Google-services.json` file
 
-    <img src="assets/images/screenshots/glogin/6.png">
+    <img src="/assets/images/screenshots/glogin/6.png">
 
 7. Navigate to Project Settings & Add iOS
 
-    <img src="assets/images/screenshots/glogin/3.png">
+    <img src="/assets/images/screenshots/glogin/3.png">
 
 8. Fill Required Details
 
-    <img src="assets/images/screenshots/glogin/9.png">
+    <img src="/assets/images/screenshots/glogin/9.png">
 
 9. Download `GoogleService-Info.plist` file
 
-    <img src="assets/images/screenshots/glogin/9.png">
+    <img src="/assets/images/screenshots/glogin/9.png">
 
 
 ## Step 2: Android Setup
 
 1. Copy & Paste your `google-services.json` file into `projectname/android/app/`
 
-    <img src="assets/images/screenshots/glogin/7.png">
+    <img src="/assets/images/screenshots/glogin/7.png">
 
 
 2. Open `projectname/android/app/build.gradle` & add firebase dependencies
@@ -104,11 +104,11 @@ In order to work with firebase with flutter, we need to follow these setup.
     pod install
     ```
 
-    <img src="assets/images/screenshots/glogin/11.png">
+    <img src="/assets/images/screenshots/glogin/11.png">
 
 3. Open `projectname/ios/Runner.xcworkspace` & Choose Project & Add File to Runner & Choose `GoogleService-Info.plist` with choose target of Runner
 
-    <img src="assets/images/screenshots/glogin/12.png">
+    <img src="/assets/images/screenshots/glogin/12.png">
 
-    <img src="assets/images/screenshots/glogin/13.png">
+    <img src="/assets/images/screenshots/glogin/13.png">
 

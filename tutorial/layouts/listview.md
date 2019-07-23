@@ -5,13 +5,13 @@ parent: Flutter Layouts
 nav_order: 1
 permalink: /flutter-list-view/
 menu_title: List View
-image: assets/images/cover/flutter-listview-tutorial.jpg
+image: /assets/images/cover/flutter-listview-tutorial.jpg
 comments: true
 ---
 
 # A Complete Guide to flutter list view
 
-<img src="assets/images/cover/flutter-listview-tutorial.jpg">
+<img src="/assets/images/cover/flutter-listview-tutorial.jpg">
 
 If you want to display multiple widgets in vertically or horizantally with scrollable, you can use flutter list view
 
@@ -35,17 +35,17 @@ This example, we're going to display images horizantally with scrollable
 ListView(
     scrollDirection: Axis.horizontal,
     children: <Widget>[
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
-        Image.asset("assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
+        Image.asset("/assets/flutterowl.png", width: 100.0, height:100.0),
     ],
 )
 ```
-<img src="assets/images/screenshots/flutter-listview-example1.png"/>
+<img src="/assets/images/screenshots/flutter-listview-example1.png"/>
 
 ---
 
@@ -67,7 +67,7 @@ ListView(
 ```
 Image Source: https://matadornetwork.com/read/21-amazing-images-new-seven-wonders-world/
 
-<img src="assets/images/screenshots/flutter-listview-example1.png"/>
+<img src="/assets/images/screenshots/flutter-listview-example1.png"/>
 
 ---
 
@@ -146,4 +146,4 @@ ListView.builder(
 
 ```
 
-<img src="assets/images/screenshots/flutter-listview-example2.png"/>
+<img src="/assets/images/screenshots/flutter-listview-example2.png"/>

@@ -5,12 +5,12 @@ parent: Flutter & Firebase
 nav_order: 4
 permalink: /flutter-firebase-push-notification/
 menu_title: Firebase Cloud Messaging
-image: assets/images/cover/flutter-firebase-push-notification-tutorial.jpg
+image: /assets/images/cover/flutter-firebase-push-notification-tutorial.jpg
 comments: true
 file: flutter-fcm
 ---
 
-<img src="assets/images/cover/flutter-firebase-push-notification-tutorial.jpg">
+<img src="/assets/images/cover/flutter-firebase-push-notification-tutorial.jpg">
 
 # A Complete Guide to integrate Firebase Messaging with Flutter
 
@@ -126,7 +126,7 @@ class _MyAppState extends State<MyApp> {
 
 Get Your server Key **Firebase Console -> Firebase Project OverView -> Project Settings -> Cloud Messaging**
 
-<img src="assets/images/screenshots/firebase/firebase-server-key.png">
+<img src="/assets/images/screenshots/firebase/firebase-server-key.png">
 
 Run this command on your terminal & see the result. Note: Please update device token and server key with yours!
 
@@ -137,4 +137,4 @@ curl https://fcm.googleapis.com/fcm/send -H "Content-Type:application/json" -X P
 
 ```
 
-<img src="assets/images/screenshots/firebase/fcm1.png"> <img src="assets/images/screenshots/firebase/fcm2.png">
+<img src="/assets/images/screenshots/firebase/fcm1.png"> <img src="/assets/images/screenshots/firebase/fcm2.png">

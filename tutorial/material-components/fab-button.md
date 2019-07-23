@@ -5,12 +5,12 @@ parent: Material Components
 nav_order: 2
 permalink: /flutter-floating-action-button/
 menu_title: Floating Action Button
-image: assets/images/cover/flutter-floating-action-button-tutorial.jpg
+image: /assets/images/cover/flutter-floating-action-button-tutorial.jpg
 comments: true
 file: flutter-fab
 ---
 
-<img src="assets/images/cover/flutter-floating-action-button-tutorial.jpg">
+<img src="/assets/images/cover/flutter-floating-action-button-tutorial.jpg">
 
 # Deep Dive into Flutter Floating Action Button (FAB)
 

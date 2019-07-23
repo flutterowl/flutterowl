@@ -5,12 +5,12 @@ parent: Flutter & Firebase
 nav_order: 3
 permalink: /flutter-firebase-firestore-database/
 menu_title: FireStore
-image: assets/images/cover/flutter-firestore-tutorial.jpg
+image: /assets/images/cover/flutter-firestore-tutorial.jpg
 comments: true
 file: flutter-firestore
 ---
 
-<img src="assets/images/cover/flutter-firestore-tutorial.jpg">
+<img src="/assets/images/cover/flutter-firestore-tutorial.jpg">
 
 # A Simple Chat with Flutter & FireStore
 
@@ -136,4 +136,4 @@ Container( child: Row(children: <Widget>[
 
 ### Screenshot
 
-<img src="assets/images/screenshots/firebase/chat1.png"> <img src="assets/images/screenshots/firebase/chat2.png"> <img src="assets/images/screenshots/firebase/chat3.png"> <img src="assets/images/screenshots/firebase/chat4.png">
+<img src="/assets/images/screenshots/firebase/chat1.png"> <img src="/assets/images/screenshots/firebase/chat2.png"> <img src="/assets/images/screenshots/firebase/chat3.png"> <img src="/assets/images/screenshots/firebase/chat4.png">

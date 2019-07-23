@@ -5,12 +5,12 @@ parent: Material Components
 nav_order: 1
 permalink: /flutter-appbar/
 menu_title: AppBar
-image: assets/images/cover/flutter-appbar-tutorial.jpg
+image: /assets/images/cover/flutter-appbar-tutorial.jpg
 comments: true
 file: flutter-appbar
 ---
 
-<img src="assets/images/cover/flutter-appbar-tutorial.jpg">
+<img src="/assets/images/cover/flutter-appbar-tutorial.jpg">
 
 # Deep Dive into Flutter AppBar 
 

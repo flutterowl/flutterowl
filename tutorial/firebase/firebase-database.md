@@ -5,12 +5,12 @@ parent: Flutter & Firebase
 nav_order: 2
 permalink: /flutter-firebase-realtime-database/
 menu_title: Realtime Database
-image: assets/images/cover/flutter-firebase-database-tutorial.jpg
+image: /assets/images/cover/flutter-firebase-database-tutorial.jpg
 comments: true
 file: flutter-firebase-rtdb
 ---
 
-<img src="assets/images/cover/flutter-firebase-database-tutorial.jpg">
+<img src="/assets/images/cover/flutter-firebase-database-tutorial.jpg">
 
 # Flutter Chat using Firebase Realtime Database
 
@@ -152,4 +152,4 @@ Container( child: Row(children: <Widget>[
 
 ### Screenshot
 
-<img src="assets/images/screenshots/firebase/chat1.png"> <img src="assets/images/screenshots/firebase/chat2.png"> <img src="assets/images/screenshots/firebase/chat3.png"> <img src="assets/images/screenshots/firebase/chat4.png">
+<img src="/assets/images/screenshots/firebase/chat1.png"> <img src="/assets/images/screenshots/firebase/chat2.png"> <img src="/assets/images/screenshots/firebase/chat3.png"> <img src="/assets/images/screenshots/firebase/chat4.png">

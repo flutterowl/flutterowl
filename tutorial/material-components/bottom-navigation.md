@@ -5,12 +5,12 @@ parent: Material Components
 nav_order: 5
 permalink: /flutter-bottom-nativigation/
 menu_title: Bottom Navigation
-image: assets/images/cover/flutter-bottom-navigation-tutorial.jpg
+image: /assets/images/cover/flutter-bottom-navigation-tutorial.jpg
 comments: true
 file: flutter-bottom-navigation
 ---
 
-<img src="assets/images/cover/flutter-bottom-navigation-tutorial.jpg">
+<img src="/assets/images/cover/flutter-bottom-navigation-tutorial.jpg">
 
 # A Complete Guide to Flutter Bottom Navigation Bar
 

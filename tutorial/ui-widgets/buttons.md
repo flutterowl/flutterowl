@@ -5,14 +5,14 @@ parent: UI Widgets
 nav_order: 2
 permalink: /display-buttons-on-flutter/
 menu_title: Flutter Buttons
-image: assets/images/cover/flutter-buttons.jpg
+image: /assets/images/cover/flutter-buttons.jpg
 comments: true
 file: flutter-buttons
 ---
 
 # Flutter Buttons Complete Guide
 
-<img src="assets/images/cover/flutter-buttons.jpg">
+<img src="/assets/images/cover/flutter-buttons.jpg">
 
 Flutter has multiple button types such as 
 
@@ -33,7 +33,7 @@ RaisedButton(
         // some code here
     })
 ```
-<img src="assets/images/screenshots/fluter-raisedbutton-example.png"/>
+<img src="/assets/images/screenshots/fluter-raisedbutton-example.png"/>
 
 ---
 
@@ -48,7 +48,7 @@ FlatButton(
         // some code here
     })
 ```
-<img src="assets/images/screenshots/fluter-flatbutton-example.png"/>
+<img src="/assets/images/screenshots/fluter-flatbutton-example.png"/>
 
 ---
 
@@ -63,7 +63,7 @@ OutlineButton(
         // some code here
     })
 ```
-<img src="assets/images/screenshots/fluter-outlinebutton-example.png"/>
+<img src="/assets/images/screenshots/fluter-outlinebutton-example.png"/>
 
 ---
 
@@ -79,4 +79,4 @@ IconButton(
     })
 ```
 
-<img src="assets/images/screenshots/fluter-iconbutton-example.png"/>
+<img src="/assets/images/screenshots/fluter-iconbutton-example.png"/>

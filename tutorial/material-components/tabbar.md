@@ -5,12 +5,12 @@ parent: Material Components
 nav_order: 4
 permalink: /flutter-tabbar/
 menu_title: TabBar
-image: assets/images/cover/flutter-tabbar-tutorial.jpg
+image: /assets/images/cover/flutter-tabbar-tutorial.jpg
 comments: true
 file: flutter-tabbar
 ---
 
-<img src="assets/images/cover/flutter-tabbar-tutorial.jpg">
+<img src="/assets/images/cover/flutter-tabbar-tutorial.jpg">
 
 # A Complete Guide to Flutter TabBar
 
