@@ -15,7 +15,7 @@ window.onload = function () {
         btn.onclick = function () {
             var fileid = btn.getAttribute("data-fileid");
             modal.style.display = "block";
-            document.getElementsByName('fo_dlurl')[0].src = "login.html?file=" + fileid;
+            document.getElementsByName('fo_dlurl')[0].src = "/login.html?file=" + fileid;
         }
 
         window.onclick = function (event) {
