@@ -27,6 +27,8 @@ markdown: kramdown
 theme: "just-the-docs"
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  
 search_enabled: true
 ga_tracking: UA-144336819-1
 # Exclude from processing.
